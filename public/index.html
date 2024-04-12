@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <h1>AI Text Summarizer App</h1>
@@ -24,9 +26,11 @@
       </div>
       <div class="text-box"> 
       <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here" disabled></textarea>
+        <button id="download-pdf-button" class="submit-button" >
+          <span class="download-pdf-text">Download PDF</span>
       </div>
     </div>
     <div></div>
-    <script src="script.js"></script>
+    
   </body>
 </html>
