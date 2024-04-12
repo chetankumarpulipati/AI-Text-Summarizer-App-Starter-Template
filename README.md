@@ -1,8 +1,4 @@
-Got it, let's adjust the formatting to ensure it looks clean on GitHub:
-
----
-
-# Text Summarization Web Application
+# AI Text Summarization Web Application
 
 ## Description
 
@@ -53,7 +49,7 @@ Upon forking the repository, you'll find the following structure:
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
+- [chetankumarpulipati](https://github.com/chetankumarpulipati)
 
 ## License
 
